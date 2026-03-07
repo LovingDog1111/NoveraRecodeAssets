@@ -15,14 +15,14 @@
             "Alpha": 40,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Flat": false,
         "Hardcode": false,
         "Ignite Delay": 0,
         "Java": false,
-        "Keybind": 70,
+        "Keybind": 0,
         "Lerp": true,
         "Line Color": {
             "Alpha": 0,
@@ -42,7 +42,7 @@
             "Alpha": 120,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Render Damage": false,
@@ -63,7 +63,7 @@
         "enabled": false
     },
     "AntiCrystal": {
-        "Keybind": 89,
+        "Keybind": 0,
         "Toggle": 0,
         "VerticalOffset": 0.47961121797561646,
         "Visible": true,
@@ -106,6 +106,13 @@
         "Visible": true,
         "enabled": true
     },
+    "AutoConfig": {
+        "Keybind": 0,
+        "SelectedConfig": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+    },
     "AutoCrystal": {
         "AttackBreaking": true,
         "AttackPlacement": true,
@@ -117,13 +124,13 @@
             "Alpha": 60,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "IDPredictPackets": 1,
         "Inhibit": false,
         "KACAType": 1,
-        "Keybind": 67,
+        "Keybind": 0,
         "LineColor": {
             "Alpha": 0,
             "Blue": 255,
@@ -185,7 +192,7 @@
     },
     "AutoMine": {
         "Burrow": true,
-        "Keybind": 90,
+        "Keybind": 0,
         "PlaceCrystal": true,
         "Priority": true,
         "Range": 9.221649169921875,
@@ -212,7 +219,7 @@
             "Alpha": 49,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Keybind": 0,
@@ -220,7 +227,7 @@
             "Alpha": 0,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Packet Place": false,
@@ -255,7 +262,7 @@
     },
     "BoatFly": {
         "InstantDismount": true,
-        "Keybind": 66,
+        "Keybind": 0,
         "Speed": 1.0,
         "SpoofGround": true,
         "Toggle": 0,
@@ -264,7 +271,7 @@
         "enabled": false
     },
     "Burrow": {
-        "Keybind": 96,
+        "Keybind": 0,
         "Mode": 0,
         "Toggle": 0,
         "Visible": true,
@@ -283,7 +290,7 @@
             "Alpha": 149,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Combat": {
@@ -294,7 +301,7 @@
             }
         },
         "Description": true,
-        "Keybind": 82,
+        "Keybind": 45,
         "Movement": {
             "isExtended": true,
             "pos": {
@@ -368,12 +375,12 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Fade": false,
         "Jump Disable": false,
-        "Keybind": 88,
+        "Keybind": 0,
         "LineAlpha": 0,
         "No MultiTask": false,
         "Packet Place": false,
@@ -397,7 +404,7 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Glow": true,
@@ -480,7 +487,7 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Fill": false,
@@ -491,14 +498,14 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "ObsidianHole": {
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Outline": true,
@@ -518,7 +525,7 @@
         "Fill Alpha": 7,
         "Height Amount": 1.190000057220459,
         "Jetpack Snap Distance": 5.0,
-        "Keybind": 86,
+        "Keybind": 0,
         "Lerp Render": true,
         "Line Alpha": 107,
         "Mode": 2,
@@ -576,14 +583,14 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "PotionColor": {
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "ShowDimension": false,
@@ -603,7 +610,7 @@
     },
     "Jetpack": {
         "Fast Stop": true,
-        "Keybind": 71,
+        "Keybind": 0,
         "Ramp": false,
         "Ramp Amount": 0.44866666197776794,
         "Ramp Delay": 1,
@@ -619,13 +626,13 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Criticals": false,
         "EatStop": true,
         "HitAttempts": 2,
-        "Keybind": 67,
+        "Keybind": 0,
         "Mobs": false,
         "PacketRots": false,
         "Range": 7.0646820068359375,
@@ -648,7 +655,7 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Self": true,
@@ -659,7 +666,7 @@
     },
     "NoClip": {
         "HSpeed": 0.0010000000474974513,
-        "Keybind": 72,
+        "Keybind": 0,
         "Packet": true,
         "Toggle": 0,
         "VSpeed": 0.0010000000474974513,
@@ -717,7 +724,7 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Keybind": 0,
@@ -746,7 +753,7 @@
         "enabled": true
     },
     "Phase": {
-        "Keybind": 9,
+        "Keybind": 0,
         "Toggle": 0,
         "Visible": true,
         "enabled": false
@@ -793,7 +800,7 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "Crystal Blocker": false,
@@ -886,7 +893,7 @@
             "Alpha": 255,
             "Blue": 255,
             "Green": 0,
-            "Red": 137,
+            "Red": 127,
             "Synced": true
         },
         "TextSize": 1.9880952835083008,
@@ -904,5 +911,5 @@
         "TBNRfrags6533",
         "CartWints2209"
     ],
-    "name": "MelodyV3"
+    "name": "Novera"
 }
