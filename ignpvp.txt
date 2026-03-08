@@ -13,9 +13,9 @@
         "Fade Duration": 1.0,
         "Fill Color": {
             "Alpha": 40,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Flat": false,
@@ -40,9 +40,9 @@
         "Render": true,
         "Render Color": {
             "Alpha": 120,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Render Damage": false,
@@ -65,12 +65,12 @@
     "AntiCrystal": {
         "Keybind": 0,
         "Toggle": 0,
-        "VerticalOffset": 0.47961121797561646,
+        "VerticalOffset": -0.0028571784496307373,
         "Visible": true,
         "enabled": false
     },
     "AntiInventoryDesync": {
-        "Delay": 3,
+        "Delay": 5,
         "Keybind": 0,
         "Toggle": 0,
         "Visible": false,
@@ -78,12 +78,12 @@
     },
     "ArrayList": {
         "AlignBottom": true,
-        "Glow": true,
+        "Glow": false,
         "Keybind": 0,
-        "Opacity": 0.6238095164299011,
+        "Opacity": 0.3761904835700989,
         "ShowMode": true,
-        "Style": 0,
-        "TextSize": 1.3952381610870361,
+        "Style": 1,
+        "TextSize": 1.0,
         "TextStyle": 0,
         "Toggle": 0,
         "Visible": false,
@@ -100,10 +100,10 @@
     "AutoArmor": {
         "Delay": 0,
         "Keybind": 0,
-        "MinHealth": 20.0,
-        "PreferElytra": true,
+        "MinHealth": 0.0,
+        "PreferElytra": false,
         "Toggle": 0,
-        "Visible": true,
+        "Visible": false,
         "enabled": true
     },
     "AutoConfig": {
@@ -114,71 +114,90 @@
         "enabled": false
     },
     "AutoCrystal": {
-        "AttackBreaking": true,
-        "AttackPlacement": true,
-        "Break Delay": 20,
-        "Break Range": 7,
-        "BreakType": 1,
-        "EatStop": true,
-        "FillColor": {
-            "Alpha": 60,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+        "Alternate": false,
+        "AutoBreak": true,
+        "AutoPlace": true,
+        "Break Delay": 0.0,
+        "Break Range": 7.0,
+        "Build Speed Toggle": true,
+        "BuildSpeed": 1,
+        "Enemy Damage": 1.532976746559143,
+        "Fade": true,
+        "Fade Duration": 1.0,
+        "Fill Color": {
+            "Alpha": 0,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
-        "IDPredictPackets": 3,
-        "Inhibit": false,
-        "KACAType": 1,
+        "Flat": true,
+        "ID Delay": 0.009999999776482582,
+        "IDPredict": true,
+        "Inhibit": true,
         "Keybind": 0,
-        "LineColor": {
-            "Alpha": 0,
+        "Line Color": {
+            "Alpha": 255,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
+            "Synced": true
+        },
+        "MultiPlace": 2,
+        "MultiTask": 1,
+        "Packet Attack": false,
+        "Packet Place": true,
+        "Packets": 4,
+        "Place Delay": 1.0499999523162842,
+        "Place Range": 8.0,
+        "Priority": 0,
+        "Proximity": 4.049019813537598,
+        "Render": true,
+        "Render Damage": false,
+        "Rotate": false,
+        "Self": false,
+        "Self Damage": 9.910872459411621,
+        "Slide": false,
+        "Slide Speed": 10.0,
+        "Switch Mode": 2,
+        "Target Range": 12.0,
+        "Text Color": {
+            "Alpha": 255,
             "Blue": 255,
             "Green": 255,
             "Red": 255,
             "Synced": false
         },
-        "MaxSelfDam": 36.0,
-        "MinTargDam": 0.8571428656578064,
-        "MultiPlace": 2,
-        "Place Delay": 1,
-        "Place Range": 8,
-        "Render": true,
-        "Rotations": false,
-        "SelfTest": false,
-        "Swap": true,
-        "SwapBack": true,
-        "SwitchToSwordSilently": true,
         "Toggle": 0,
-        "UseVanillaSwordAttacks": false,
         "Visible": true,
+        "WhileEating": 0,
         "enabled": false
     },
     "AutoHotBar": {
         "Anchor": true,
-        "Anchor Slot": 2,
+        "Anchor Slot": 4,
         "Anvil": false,
         "Anvil Slot": 1,
         "Bed Slot": 8,
         "Beds": false,
         "Crystal": true,
-        "Crystal Slot": 9,
-        "Gapple": true,
+        "Crystal Slot": 8,
+        "Gapple": false,
         "Gapple Slot": 4,
         "Glowstone": true,
-        "Glowstone Slot": 3,
+        "Glowstone Slot": 6,
         "Keybind": 0,
         "Netherite": false,
         "Netherite Slot": 1,
         "Obsidian": true,
-        "Obsidian Slot": 5,
+        "Obsidian Slot": 9,
         "Pearl": false,
         "Pearl Slot": 1,
         "Pickaxe": false,
         "Pickaxe Slot": 2,
         "Piston": false,
         "Piston Slot": 1,
-        "Potion Slot": 8,
+        "Potion Slot": 5,
         "Potions": true,
         "Redstone": false,
         "Redstone Slot": 6,
@@ -204,7 +223,7 @@
     "BedAura": {
         "Attempts": 2,
         "Break Delay": 0,
-        "Break Dist": 5,
+        "Break Dist": 8,
         "Container Check": true,
         "Damage": 4.0,
         "Danger Damage": 8.0,
@@ -212,34 +231,34 @@
         "EatStop": true,
         "Enemy Dmg": 0.0,
         "Extrapolate": true,
-        "Extrapolate Ticks": 4,
+        "Extrapolate Ticks": 3,
         "Fade": false,
         "Fade Duration": 1.0,
         "Fill Color": {
             "Alpha": 49,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Keybind": 0,
         "Line Color": {
             "Alpha": 0,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Packet Place": false,
         "Phase Place": true,
         "Place Delay": 1,
-        "Place Dist": 12,
+        "Place Dist": 6,
         "Priority": 0,
         "Proximity": 3,
         "Ratio": 3.0,
         "Render": 2,
         "Render Damage": false,
-        "Safety": true,
+        "Safety": false,
         "Self Dmg": 36.0,
         "Self Test": true,
         "Slide": true,
@@ -261,10 +280,10 @@
         "enabled": false
     },
     "BoatFly": {
-        "InstantDismount": false,
+        "InstantDismount": true,
         "Keybind": 0,
-        "Speed": 1.9900001287460327,
-        "SpoofGround": false,
+        "Speed": 1.0,
+        "SpoofGround": true,
         "Toggle": 0,
         "Vertical": 0.5,
         "Visible": true,
@@ -278,53 +297,57 @@
         "enabled": false
     },
     "ClickGUI": {
-        "Blur": 1.0677580833435059,
+        "AnimationSpeed": 4.000000953674316,
+        "Blur": 0.0,
         "Client": {
             "isExtended": true,
             "pos": {
                 "x": 978.0,
-                "y": 116.0
+                "y": 71.0
             }
         },
         "Color": {
-            "Alpha": 149,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Alpha": 164,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Combat": {
             "isExtended": true,
             "pos": {
                 "x": 30.0,
-                "y": 115.0
+                "y": 70.0
             }
         },
-        "Description": true,
+        "Description": false,
         "Keybind": 45,
         "Movement": {
             "isExtended": true,
             "pos": {
                 "x": 268.0,
-                "y": 115.0
+                "y": 70.0
             }
         },
         "Player": {
             "isExtended": true,
             "pos": {
                 "x": 744.0,
-                "y": 115.0
+                "y": 70.0
             }
         },
         "Render": {
             "isExtended": true,
             "pos": {
                 "x": 506.0,
-                "y": 115.0
+                "y": 70.0
             }
         },
+        "TextHeight": 1.297861099243164,
         "Toggle": 0,
-        "Visible": false
+        "Underline": false,
+        "Visible": false,
+        "Width": 28.12333869934082
     },
     "Clip": {
         "Keybind": 0,
@@ -334,32 +357,32 @@
         "enabled": true
     },
     "Colors": {
-        "Brightness": 0.8714285492897034,
+        "Brightness": 1.0,
         "Color": {
+            "Alpha": 175,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
+            "Synced": false
+        },
+        "Keybind": 0,
+        "Mode": 0,
+        "Primary": {
+            "Alpha": 175,
+            "Blue": 246,
+            "Green": 124,
+            "Red": 126,
+            "Synced": false
+        },
+        "Saturation": 0.3285714387893677,
+        "Secondary": {
             "Alpha": 175,
             "Blue": 255,
             "Green": 255,
             "Red": 255,
             "Synced": false
         },
-        "Keybind": 0,
-        "Mode": 2,
-        "Primary": {
-            "Alpha": 175,
-            "Blue": 255,
-            "Green": 209,
-            "Red": 126,
-            "Synced": false
-        },
-        "Saturation": 0.4761904776096344,
-        "Secondary": {
-            "Alpha": 175,
-            "Blue": 255,
-            "Green": 0,
-            "Red": 162,
-            "Synced": false
-        },
-        "Seconds": 10.0,
+        "Seconds": 4.642857074737549,
         "Seperation": 100,
         "Toggle": 0,
         "Visible": false,
@@ -373,9 +396,9 @@
         "Center": true,
         "Color": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Fade": false,
@@ -383,8 +406,8 @@
         "Keybind": 0,
         "LineAlpha": 0,
         "No MultiTask": false,
-        "Packet Place": true,
-        "Place Delay": 0,
+        "Packet Place": false,
+        "Place Delay": 1,
         "Render": true,
         "Rotate": true,
         "Switch": 3,
@@ -393,7 +416,7 @@
         "enabled": false
     },
     "CustomFov": {
-        "Fov": 120.0,
+        "Fov": 132.26666259765625,
         "Keybind": 0,
         "Toggle": 0,
         "Visible": false,
@@ -402,23 +425,23 @@
     "CustomText": {
         "Color": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Glow": true,
         "Keybind": 0,
-        "PosX": 1654.8570556640625,
-        "PosY": 0.0,
-        "Text": "welcome to MelodyV3, alice",
+        "PosX": 0.0,
+        "PosY": 977.1428833007813,
+        "Text": "dev",
         "TextSize": 1.0952380895614624,
         "Toggle": 0,
         "Visible": false,
         "enabled": false
     },
     "DoubleHand": {
-        "Item": 0,
+        "Item": 1,
         "Keybind": 0,
         "MinHealth": 3.261904716491699,
         "Toggle": 0,
@@ -432,7 +455,7 @@
         "Speed": 1.8666666746139526,
         "Toggle": 0,
         "Visible": false,
-        "enabled": false
+        "enabled": true
     },
     "FastStop": {
         "Keybind": 0,
@@ -465,7 +488,7 @@
         "enabled": false
     },
     "Fonts": {
-        "Font": 4,
+        "Font": 3,
         "FontSize": 20,
         "Italic": false,
         "Keybind": 0,
@@ -484,33 +507,35 @@
     },
     "HoleESP": {
         "BedrockHole": {
-            "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Alpha": 29,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
-        "Fill": false,
-        "HRadius": 7,
-        "IgnoreOwn": false,
+        "Distance": 10,
+        "Fill": true,
+        "HRadius": 3,
+        "Height": 0.75,
         "Keybind": 0,
         "MixedHole": {
-            "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Alpha": 29,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "ObsidianHole": {
-            "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Alpha": 29,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
-        "Outline": true,
+        "Outline Alpha": 59,
+        "Outline Height": 0.0,
         "Toggle": 0,
-        "VRadius": 6,
+        "VRadius": 3,
         "Visible": false,
         "enabled": true
     },
@@ -581,16 +606,16 @@
         "Keybind": 0,
         "PosColor": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "PotionColor": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "ShowDimension": false,
@@ -605,8 +630,8 @@
     "Jesus": {
         "Keybind": 0,
         "Toggle": 0,
-        "Visible": true,
-        "enabled": false
+        "Visible": false,
+        "enabled": true
     },
     "Jetpack": {
         "Fast Stop": true,
@@ -615,31 +640,40 @@
         "Ramp Amount": 0.44866666197776794,
         "Ramp Delay": 1,
         "Ramp Max Speed": 3.0,
-        "Speed": 1.4800000190734863,
+        "Speed": 1.4000000953674316,
         "Toggle": 0,
         "Visible": true,
         "enabled": false
     },
     "KillAura": {
-        "Attack Delay": 0,
+        "Adaptive Rot": false,
         "Color": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
-        "Criticals": false,
+        "Critical Velocity": 1.0476188659667969,
         "EatStop": true,
-        "HitAttempts": 5,
+        "Hit Attempts": 10,
+        "HitChance": 100,
+        "HitType": 0,
+        "Interval": 0,
         "Keybind": 0,
+        "Max Dist": 8.0,
+        "Min Dist": 3.0,
         "Mobs": false,
-        "PacketRots": true,
-        "Range": 7.0646820068359375,
+        "Packet": true,
+        "Packet Criticals": true,
+        "Range": 9.69523811340332,
         "Render": true,
+        "Rot Speed": 180,
+        "Rotations": 1,
+        "Strike Mode": false,
         "Toggle": 0,
-        "Type": 1,
         "Visible": false,
+        "WallRange": 6.857142925262451,
         "Weapon": 2,
         "enabled": false
     },
@@ -653,13 +687,13 @@
         "Opacity": 168,
         "Rect Color": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Self": true,
-        "Text Size": 1.235714316368103,
+        "Text Size": 1.0,
         "Toggle": 0,
         "Visible": false,
         "enabled": true
@@ -702,7 +736,7 @@
         "ModuleToggles": true,
         "Toggle": 0,
         "Visible": false,
-        "VisualRange": true,
+        "VisualRange": false,
         "enabled": true
     },
     "Offhand": {
@@ -716,15 +750,15 @@
     },
     "PacketMine": {
         "Alpha": 40,
-        "Bypass": 0,
+        "Bypass": 15,
         "Continue Delay": 0,
         "Continue Reset": 1.0,
         "Double Mine": false,
         "EndColor": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Keybind": 0,
@@ -734,10 +768,10 @@
         "Mine Type": 0,
         "MultiTask": 0,
         "Packet": 0,
-        "Reenable Delay": 5,
+        "Reenable Delay": 1,
         "Retry Delay": 0,
         "Silent": true,
-        "Speed": 0.9866666793823242,
+        "Speed": 1.104285717010498,
         "StartColor": {
             "Alpha": 255,
             "Blue": 255,
@@ -746,7 +780,7 @@
             "Synced": false
         },
         "Stop Modules": false,
-        "Swap Percent": 90,
+        "Swap Percent": 80,
         "Switch Back": true,
         "Toggle": 0,
         "Visible": true,
@@ -756,6 +790,20 @@
         "Keybind": 0,
         "Toggle": 0,
         "Visible": true,
+        "enabled": false
+    },
+    "PistonPush": {
+        "DynamicX": true,
+        "DynamicY": true,
+        "Keybind": 0,
+        "Mode": 0,
+        "PlaceRange": 5.0,
+        "Render": true,
+        "SelfTest": true,
+        "StepDelay": 1,
+        "Toggle": 0,
+        "Visible": true,
+        "YOffset": 0.5142858028411865,
         "enabled": false
     },
     "PopCounter": {
@@ -794,13 +842,13 @@
         "Alpha": 40,
         "Auto Disable": false,
         "Blocks Per Tick": 100,
-        "Button": true,
+        "Button": false,
         "Center": false,
         "Color": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
         "Crystal Blocker": false,
@@ -824,7 +872,7 @@
     },
     "TickShift": {
         "Keybind": 0,
-        "MaxTPS": 31,
+        "MaxTPS": 30,
         "MinTPS": 19,
         "Safety": false,
         "ShiftTicks": 9,
@@ -881,22 +929,82 @@
         "Visible": false,
         "enabled": true
     },
+    "VoidCrystal": {
+        "Alternate": false,
+        "AutoBreak": true,
+        "AutoPlace": true,
+        "Break Delay": 0.009999999776482582,
+        "Break Range": 7.285714626312256,
+        "Build Speed Toggle": true,
+        "BuildSpeed": 1,
+        "Enemy Damage": 1.7142857313156128,
+        "Fade": true,
+        "Fade Duration": 1.0,
+        "Fill Color": {
+            "Alpha": 44,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
+            "Synced": true
+        },
+        "Flat": false,
+        "ID Delay": 0.009999999776482582,
+        "IDPredict": true,
+        "Inhibit": true,
+        "Keybind": 67,
+        "Line Color": {
+            "Alpha": 0,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
+            "Synced": true
+        },
+        "MultiPlace": 2,
+        "MultiTask": 1,
+        "Packet Attack": false,
+        "Packet Place": true,
+        "Packets": 4,
+        "Place Delay": 1.0499999523162842,
+        "Place Range": 8.019047737121582,
+        "Priority": 0,
+        "Proximity": 6.0,
+        "Render": true,
+        "Render Damage": false,
+        "Rotate": true,
+        "Self": false,
+        "Self Damage": 20.0,
+        "Slide": true,
+        "Slide Speed": 10.0,
+        "Switch Mode": 2,
+        "Target Range": 12.0,
+        "Text Color": {
+            "Alpha": 255,
+            "Blue": 255,
+            "Green": 255,
+            "Red": 255,
+            "Synced": false
+        },
+        "Toggle": 0,
+        "Visible": true,
+        "WhileEating": 0,
+        "enabled": false
+    },
     "Watermark": {
         "CornerOffsetX": 11.428571701049805,
         "CornerOffsetY": 11.428571701049805,
         "EnableGlow": true,
         "Keybind": 0,
         "Padding": 2.2857143878936768,
-        "ShowVersion": false,
+        "ShowVersion": true,
         "Style": 0,
         "TextColor": {
             "Alpha": 255,
-            "Blue": 116,
-            "Green": 222,
-            "Red": 130,
+            "Blue": 0,
+            "Green": 0,
+            "Red": 255,
             "Synced": true
         },
-        "TextSize": 1.9880952835083008,
+        "TextSize": 2.011904716491699,
         "Toggle": 0,
         "Visible": false,
         "enabled": true
@@ -904,12 +1012,32 @@
     "friends": [
         "SkilfulGoat5693",
         "weloveram",
-        "owlmints",
-        "Georgethduck",
         "RIPCarnation",
         "ArmedQuill01898",
         "TBNRfrags6533",
-        "CartWints2209"
+        "CartWints2209",
+        "Ari7698",
+        "Ynattu30",
+        "Maicu3300",
+        "Velcro XD",
+        "FakeSSLebo",
+        "Tripulante1404",
+        "Ezzz boys6296",
+        "Artist2121",
+        "MythicDawn2k",
+        "Ichigo150812",
+        "Georgethduck",
+        "kanato8752",
+        "Aito525",
+        "Hz4h",
+        "BugEdtion",
+        "owlmints",
+        "okonomiyaki1313",
+        "CASTORlCE",
+        "Ep1cFurry",
+        "KiwiKiller1374",
+        "SC WOLFYZZ",
+        "arjunsingh6367"
     ],
     "name": "Novera"
 }
